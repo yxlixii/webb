@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact - Regije i Likovi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #1e2836, #3a4d6b);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #2c3e50;
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover, nav a.active {
+            background-color: #3498db;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #e67e22;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+        .archon-info {
+            background-color: #ecf0f1;
+            padding: 10px 15px;
+            border-left: 5px solid #e67e22;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #34495e;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .element-badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            color: white;
+            font-weight: bold;
+        }
+        /* Boje za elemente */
+        .anemo { background-color: #72e2c4; color: #111; }
+        .geo { background-color: #de9b3a; }
+        .electro { background-color: #a757e6; }
+        .dendro { background-color: #a3da42; color: #111; }
+        .hydro { background-color: #2299ff; }
+        .pyro { background-color: #ef7961; }
+        .cryo { background-color: #a0e6ef; color: #111; }
+
+        footer {
+            background-color: #1e2836;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Regije i Likovi Teyvata</h1>
+        <p>Pregled nacija, njihovih vladara i prepoznatljivih likova</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Početna</a>
+        <a href="likovi.html" class="active">Regije & Likovi</a>
+    </nav>
+
+    <div class="container">
+
+        <section class="section">
+            <h2>1. Mondstadt (Nacija Slobode)</h2>
+            <div class="archon-info">
+                <strong>Archon (Bog):</strong> Barbatos (Venti) | <strong>Element:</strong> Anemo
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ime lika</th>
+                        <th>Element</th>
+                        <th>Oružje</th>
+                        <th>Uloga/Pripadnost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Diluc</td>
+                        <td><span class="element-badge pyro">Pyro</span></td>
+                        <td>Claymore (Veliki mač)</td>
+                        <td>Vlasnik vinarije, "Darknight Hero"</td>
+                    </tr>
+                    <tr>
+                        <td>Jean</td>
+                        <td><span class="element-badge anemo">Anemo</span></td>
+                        <td>Mač</td>
+                        <td>Acting Grand Master vitezova</td>
+                    </tr>
+                    <tr>
+                        <td>Kaeya</td>
+                        <td><span class="element-badge cryo">Cryo</span></td>
+                        <td>Mač</td>
+                        <td>Kapetan konjice vitezova</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section">
+            <h2>2. Liyue (Nacija Ugovora)</h2>
+            <div class="archon-info">
+                <strong>Archon (Bog):</strong> Morax (Zhongli) | <strong>Element:</strong> Geo
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ime lika</th>
+                        <th>Element</th>
+                        <th>Oružje</th>
+                        <th>Uloga/Pripadnost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Xiao</td>
+                        <td><span class="element-badge anemo">Anemo</span></td>
+                        <td>Koplje</td>
+                        <td>Posljednji od Yaksha ratnika</td>
+                    </tr>
+                    <tr>
+                        <td>Ganyu</td>
+                        <td><span class="element-badge cryo">Cryo</span></td>
+                        <td>Luk</td>
+                        <td>Tajnica Liyue Qixinga</td>
+                    </tr>
+                    <tr>
+                        <td>Hu Tao</td>
+                        <td><span class="element-badge pyro">Pyro</span></td>
+                        <td>Koplje</td>
+                        <td>Direktorica pogrebnog poduzeća Wangsheng</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section">
+            <h2>3. Inazuma (Nacija Vječnosti)</h2>
+            <div class="archon-info">
+                <strong>Archon (Bog):</strong> Raiden Shogun (Ei) | <strong>Element:</strong> Electro
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ime lika</th>
+                        <th>Element</th>
+                        <th>Oružje</th>
+                        <th>Uloga/Pripadnost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kamisato Ayaka</td>
+                        <td><span class="element-badge cryo">Cryo</span></td>
+                        <td>Mač</td>
+                        <td>Kći klanova Kamisato (Yashiro Komisija)</td>
+                    </tr>
+                    <tr>
+                        <td>Kaedehara Kazuha</td>
+                        <td><span class="element-badge anemo">Anemo</span></td>
+                        <td>Mač</td>
+                        <td>Lutajući samuraj na brodu Beidou</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section">
+            <h2>4. Sumeru (Nacija Mudrosti)</h2>
+            <div class="archon-info">
+                <strong>Archon (Bog):</strong> Lesser Lord Kusanali (Nahida) | <strong>Element:</strong> Dendro
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ime lika</th>
+                        <th>Element</th>
+                        <th>Oružje</th>
+                        <th>Uloga/Pripadnost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alhaitham</td>
+                        <td><span class="element-badge dendro">Dendro</span></td>
+                        <td>Mač</td>
+                        <td>Scriba na Sumeru Akademiji</td>
+                    </tr>
+                    <tr>
+                        <td>Cyno</td>
+                        <td><span class="element-badge electro">Electro</span></td>
+                        <td>Koplje</td>
+                        <td>General Mahamatra</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 | Genshin Impact Fan Stranica. Sva prava pripadaju HoYoverse-u.</p>
+    </footer>
+
+</body>
+</html>
