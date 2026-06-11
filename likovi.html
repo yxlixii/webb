@@ -10,11 +10,11 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #8fb3e3; /* Ista plava pozadina */
+            background-color: #8fb3e3; 
             color: #333;
         }
         header {
-            /* Rozni gradijent koji odgovara početnoj stranici */
+           
             background: linear-gradient(135deg, #ffd1dc, #ffb6c1);
             color: #3d3d3d;
             padding: 40px 20px;
@@ -57,7 +57,7 @@
         }
         h2 {
             color: #2c3e50;
-            border-bottom: 2px solid #ffb6c1; /* Promijenjeno u rozu liniju da paše uz temu */
+            border-bottom: 2px solid #ffb6c1; 
             padding-bottom: 5px;
             margin-top: 0;
         }
@@ -87,7 +87,7 @@
             border-bottom: 1px solid #ddd;
         }
         th {
-            background-color: #34495e;
+            background-color: #e5989b;
             color: white;
         }
         tr:hover {
@@ -107,179 +107,3 @@
         .hydro { background-color: #2299ff; }
         .pyro { background-color: #ef7961; }
         .cryo { background-color: #a0e6ef; color: #111; }
-
-        footer {
-            background-color: #8fb3e3;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            margin-top: 40px;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>Regije i Likovi Teyvata</h1>
-        <p>Pregled nacija, njihovih vladara i prepoznatljivih likova</p>
-    </header>
-
-    <nav>
-        <a href="index.html">Početna</a>
-        <a href="likovi.html" class="active">Regije & Likovi</a>
-    </nav>
-
-    <div class="container">
-
-        <!-- MONDSTADT -->
-        <section class="section">
-            <h2>1. Mondstadt (Nacija Slobode)</h2>
-            <img src="https://images.unsplash.com/photo-1610411707963-30541484478d?q=80&w=600&h=300&auto=format&fit=crop" alt="Mondstadt Pejzaž" class="region-img">
-            <div class="archon-info">
-                <strong>Archon (Bog):</strong> Barbatos (Venti) | <strong>Element:</strong> Anemo
-            </div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Ime lika</th>
-                        <th>Element</th>
-                        <th>Oružje</th>
-                        <th>Uloga/Pripadnost</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Diluc</td>
-                        <td><span class="element-badge pyro">Pyro</span></td>
-                        <td>Claymore (Veliki mač)</td>
-                        <td>Vlasnik vinarije, "Darknight Hero"</td>
-                    </tr>
-                    <tr>
-                        <td>Jean</td>
-                        <td><span class="element-badge anemo">Anemo</span></td>
-                        <td>Mač</td>
-                        <td>Acting Grand Master vitezova</td>
-                    </tr>
-                    <tr>
-                        <td>Kaeya</td>
-                        <td><span class="element-badge cryo">Cryo</span></td>
-                        <td>Mač</td>
-                        <td>Kapetan konjice vitezova</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <!-- LIYUE -->
-        <section class="section">
-            <h2>2. Liyue (Nacija Ugovora)</h2>
-            <img src="https://images.unsplash.com/photo-1549429517-57ac68a0a190?q=80&w=600&h=300&auto=format&fit=crop" alt="Liyue Pejzaž" class="region-img">
-            <div class="archon-info">
-                <strong>Archon (Bog):</strong> Morax (Zhongli) | <strong>Element:</strong> Geo
-            </div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Ime lika</th>
-                        <th>Element</th>
-                        <th>Oružje</th>
-                        <th>Uloga/Pripadnost</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Xiao</td>
-                        <td><span class="element-badge anemo">Anemo</span></td>
-                        <td>Koplje</td>
-                        <td>Posljednji od Yaksha ratnika</td>
-                    </tr>
-                    <tr>
-                        <td>Ganyu</td>
-                        <td><span class="element-badge cryo">Cryo</span></td>
-                        <td>Luk</td>
-                        <td>Tajnica Liyue Qixinga</td>
-                    </tr>
-                    <tr>
-                        <td>Hu Tao</td>
-                        <td><span class="element-badge pyro">Pyro</span></td>
-                        <td>Koplje</td>
-                        <td>Direktorica pogrebnog poduzeća Wangsheng</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <!-- INAZUMA -->
-        <section class="section">
-            <h2>3. Inazuma (Nacija Vječnosti)</h2>
-            <img src="https://images.unsplash.com/photo-1510168393527-2c9bd2a16d7a?q=80&w=600&h=300&auto=format&fit=crop" alt="Inazuma Pejzaž" class="region-img">
-            <div class="archon-info">
-                <strong>Archon (Bog):</strong> Raiden Shogun (Ei) | <strong>Element:</strong> Electro
-            </div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Ime lika</th>
-                        <th>Element</th>
-                        <th>Oružje</th>
-                        <th>Uloga/Pripadnost</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Kamisato Ayaka</td>
-                        <td><span class="element-badge cryo">Cryo</span></td>
-                        <td>Mač</td>
-                        <td>Kći klanova Kamisato (Yashiro Komisija)</td>
-                    </tr>
-                    <tr>
-                        <td>Kaedehara Kazuha</td>
-                        <td><span class="element-badge anemo">Anemo</span></td>
-                        <td>Mač</td>
-                        <td>Lutajući samuraj na brodu Beidou</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <!-- SUMERU -->
-        <section class="section">
-            <h2>4. Sumeru (Nacija Mudrosti)</h2>
-            <img src="https://images.unsplash.com/photo-1584992224523-28956890333d?q=80&w=600&h=300&auto=format&fit=crop" alt="Sumeru Pejzaž" class="region-img">
-            <div class="archon-info">
-                <strong>Archon (Bog):</strong> Lesser Lord Kusanali (Nahida) | <strong>Element:</strong> Dendro
-            </div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Ime lika</th>
-                        <th>Element</th>
-                        <th>Oružje</th>
-                        <th>Uloga/Pripadnost</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Alhaitham</td>
-                        <td><span class="element-badge dendro">Dendro</span></td>
-                        <td>Mač</td>
-                        <td>Scriba na Sumeru Akademiji</td>
-                    </tr>
-                    <tr>
-                        <td>Cyno</td>
-                        <td><span class="element-badge electro">Electro</span></td>
-                        <td>Koplje</td>
-                        <td>General Mahamatra</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-    </div>
-
-    <footer>
-       
-    </footer>
-
-</body>
-</html>
