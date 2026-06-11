@@ -10,12 +10,13 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f7f6;
+            background-color: #8fb3e3; /* Ista plava pozadina */
             color: #333;
         }
         header {
-            background: linear-gradient(135deg, #1e2836, #3a4d6b);
-            color: #fff;
+            /* Rozni gradijent koji odgovara početnoj stranici */
+            background: linear-gradient(135deg, #ffd1dc, #ffb6c1);
+            color: #3d3d3d;
             padding: 40px 20px;
             text-align: center;
         }
@@ -24,14 +25,14 @@
             font-size: 2.5em;
         }
         nav {
-            background-color: #2c3e50;
+            background-color: #ffd1dc;
             text-align: center;
             padding: 10px;
             position: sticky;
             top: 0;
         }
         nav a {
-            color: white;
+            color: #3d3d3d;
             text-decoration: none;
             padding: 10px 20px;
             margin: 0 10px;
@@ -40,7 +41,7 @@
             transition: background 0.3s;
         }
         nav a:hover, nav a.active {
-            background-color: #3498db;
+            background-color: #ffb6c1;
         }
         .container {
             max-width: 1000px;
@@ -56,14 +57,22 @@
         }
         h2 {
             color: #2c3e50;
-            border-bottom: 2px solid #e67e22;
+            border-bottom: 2px solid #ffb6c1; /* Promijenjeno u rozu liniju da paše uz temu */
             padding-bottom: 5px;
             margin-top: 0;
+        }
+        .region-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: block;
+            border: 2px solid #ffb6c1;
         }
         .archon-info {
             background-color: #ecf0f1;
             padding: 10px 15px;
-            border-left: 5px solid #e67e22;
+            border-left: 5px solid #ffb6c1;
             margin-bottom: 15px;
             font-weight: 500;
         }
@@ -91,7 +100,6 @@
             color: white;
             font-weight: bold;
         }
-        /* Boje za elemente */
         .anemo { background-color: #72e2c4; color: #111; }
         .geo { background-color: #de9b3a; }
         .electro { background-color: #a757e6; }
@@ -101,7 +109,7 @@
         .cryo { background-color: #a0e6ef; color: #111; }
 
         footer {
-            background-color: #1e2836;
+            background-color: #8fb3e3;
             color: white;
             text-align: center;
             padding: 15px;
@@ -123,8 +131,10 @@
 
     <div class="container">
 
+        <!-- MONDSTADT -->
         <section class="section">
             <h2>1. Mondstadt (Nacija Slobode)</h2>
+            <img src="https://images.unsplash.com/photo-1610411707963-30541484478d?q=80&w=600&h=300&auto=format&fit=crop" alt="Mondstadt Pejzaž" class="region-img">
             <div class="archon-info">
                 <strong>Archon (Bog):</strong> Barbatos (Venti) | <strong>Element:</strong> Anemo
             </div>
@@ -160,8 +170,10 @@
             </table>
         </section>
 
+        <!-- LIYUE -->
         <section class="section">
             <h2>2. Liyue (Nacija Ugovora)</h2>
+            <img src="https://images.unsplash.com/photo-1549429517-57ac68a0a190?q=80&w=600&h=300&auto=format&fit=crop" alt="Liyue Pejzaž" class="region-img">
             <div class="archon-info">
                 <strong>Archon (Bog):</strong> Morax (Zhongli) | <strong>Element:</strong> Geo
             </div>
@@ -197,8 +209,10 @@
             </table>
         </section>
 
+        <!-- INAZUMA -->
         <section class="section">
             <h2>3. Inazuma (Nacija Vječnosti)</h2>
+            <img src="https://images.unsplash.com/photo-1510168393527-2c9bd2a16d7a?q=80&w=600&h=300&auto=format&fit=crop" alt="Inazuma Pejzaž" class="region-img">
             <div class="archon-info">
                 <strong>Archon (Bog):</strong> Raiden Shogun (Ei) | <strong>Element:</strong> Electro
             </div>
@@ -228,8 +242,10 @@
             </table>
         </section>
 
+        <!-- SUMERU -->
         <section class="section">
             <h2>4. Sumeru (Nacija Mudrosti)</h2>
+            <img src="https://images.unsplash.com/photo-1584992224523-28956890333d?q=80&w=600&h=300&auto=format&fit=crop" alt="Sumeru Pejzaž" class="region-img">
             <div class="archon-info">
                 <strong>Archon (Bog):</strong> Lesser Lord Kusanali (Nahida) | <strong>Element:</strong> Dendro
             </div>
@@ -262,7 +278,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2026 | Genshin Impact Fan Stranica. Sva prava pripadaju HoYoverse-u.</p>
+       
     </footer>
 
 </body>
